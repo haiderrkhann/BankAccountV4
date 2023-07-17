@@ -241,11 +241,11 @@ namespace BankAccount
             loanAccount.Withdraw(3000);
 
 
-            //bank.DepositToAccount(246810, 500);
-            //bank.WithdrawFromAccount(246810, 200);
+            bank.DepositToAccount(246810, 500);
+            bank.WithdrawFromAccount(246810, 200);
 
-            //bank.DepositToAccount(1357913, 1000);
-            //bank.WithdrawFromAccount(1357913, 3000);
+            bank.DepositToAccount(1357913, 1000);
+            bank.WithdrawFromAccount(1357913, 3000);
 
             Console.ReadKey();
         }
